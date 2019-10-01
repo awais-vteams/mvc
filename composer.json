@@ -1,0 +1,33 @@
+{
+  "name": "ibex/mvc",
+  "type": "project",
+  "description": "TEST MVC PATTERN",
+  "keywords": [
+    "php",
+    "mvc",
+    "php7",
+    "model-view-controller",
+    "mysql"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Awais <asargodha@gmail.com>"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "config/credentials.php",
+      "config/constants.php",
+      "config/utility.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-pdo": "*"
+  },
+  "require-dev": {}
+}
